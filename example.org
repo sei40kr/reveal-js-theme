@@ -1,4 +1,11 @@
 #+TITLE: Reveal.js
+#+REVEAL_ROOT: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/
+#+REVEAL_THEME: simple
+#+REVEAL_TRANS: none
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_HIGHLIGHT_CSS: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/atom-one-light.min.css
+#+REVEAL_EXTRA_CSS: my-theme.css
+#+OPTIONS: reveal_slide_number:nil, toc:nil
 
 * ソースコードのハイライト表示
   #+BEGIN_SRC js
