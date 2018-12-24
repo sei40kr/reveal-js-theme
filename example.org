@@ -1,6 +1,6 @@
 #+TITLE: Reveal.js
 
-* Pretty Code
+* ソースコードのハイライト表示
   #+BEGIN_SRC js
 function linkify( selector ) {
   if( supports3DTransforms ) {
@@ -17,28 +17,28 @@ function linkify( selector ) {
   }
 } 
   #+END_SRC
-  Code syntax highlighting courtesy of [[https://highlightjs.org/soft/highlight/en/description/][highlight.js]].
+  ソースコードの構文ハイライトは [[https://highlightjs.org/soft/highlight/en/description/][highlight.js]] を使用。
 
-* Marvelous List
-  - No order here
-  - Or here
-  - Or here
-  - Or here
+* リスト
+  - 項目 1
+  - 項目 2
+  - 項目 3
+  - 項目 4
 
-* Fantastic Ordered List
-  1. One is smaller than...
-  2. Two is smaller than...
-  3. Three!
+* 番号付きリスト
+  1. 項目 1
+  2. 項目 2
+  3. 項目 3
 
-* Tabular Tables
-| Item     | Value | Quantity |
-|----------+-------+----------|
-| Apples   | $1    |        7 |
-| Lemonade | $2    |       18 |
-| Bread    | $3    |        2 |
+* 表
+| 商品       | 販売価格 | 在庫数 |
+|------------+----------+--------|
+| りんご     | ¥100     |      7 |
+| レモネード | ¥200     |     18 |
+| パン       | ¥300     |      2 |
 
-* Clever Quotes
-  These guys come in two forms, inline: The nice thing about standards is that there are so many to choose from and block:
+* 引用
+  宮沢賢治著、ポラーノの広場の一節。
   #+BEGIN_QUOTE
-“ For years there has been a theory that millions of monkeys typing at random on millions of typewriters would reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.” 
+  あのイーハトーヴォのすきとおった風、夏でも底に冷たさを持つ青いそら、うつくしい森で飾られたモーリオ市、郊外のぎらぎらひかる草の波。
   #+END_QUOTE 
